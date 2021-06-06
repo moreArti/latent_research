@@ -1,5 +1,8 @@
-# Аннотация:
-С развитием технологий, особенно в 21 веке, стало набирать популярность направление, связанное с нейронными сетями. С их помощью можно обрабатывать фотографии, видео, тексты, голоса и многое другое. Остановимся на обработке изображений. Во многих нейронных сетях фотографии сжимают в какое-то скрытое пространство, о котором ничего не известно. Поэтому данная работа заключается в изучении тематики обработки изображений с помощью нейронных сетей, а также создании модели на основе вариационных автоэнкодеров, которая будет кодировать изображение в осмысленное скрытое пространство.
+# Abstract:
+This work is a research of the hidden space in image transformation neural networks. The main goal of this experiment is a model that transforms similar images into the same hidden vectors (for example, the first N components must be the same).
 
-# Инструкции для запуска:
-Все инструкции находятся в файле .ipynb . Просто запускайте ячейки и перед ними будет написано, что они делает.
+# Instructions to start:
+All instructions are in the .ipynb file. Just run the cells and it will tell you what they do in front of them.
+
+# References:
+The main model has taken from [this github](https://github.com/AntixK/PyTorch-VAE)
